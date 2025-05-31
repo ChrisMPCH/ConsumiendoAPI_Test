@@ -30,6 +30,7 @@ namespace ConsumiendoAPI_Test
                     FechaBaja = e.FechaBaja?.ToString("yyyy-MM-dd") ?? "",
                     e.Estatus,
                     Nombre = e.DatosPersonales.NombreCompleto,
+
                     Correo = e.DatosPersonales.Correo,
                     Telefono = e.DatosPersonales.Telefono,
                     Curp = e.DatosPersonales.Curp,
